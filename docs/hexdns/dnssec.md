@@ -18,6 +18,6 @@ to them to figure something out.
     If you want to check that DNSSEC is configured correctly 
     [DNSViz](https://dnsviz.net/) is a great tool for that (also makes pretty graphs).
 
-If you want to sud-delegate from your zone on HexDNS to another nameserver with DNSSEC,
+If you want to sub-delegate from your zone on HexDNS to another nameserver with DNSSEC,
 you'll need to create DS records in HexDNS. The relevant table is at the bottom of the
 zone page.
