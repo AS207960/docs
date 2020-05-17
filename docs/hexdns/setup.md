@@ -1,0 +1,12 @@
+# Adding your zone to HexDNS
+
+To add your zone to HexDNS login to the control panel [here](https://dns.as207960.net),
+and follow the zone creation wizard. You won't be able to create a zone if someone else
+already controls a more generic zone.
+
+Once the zone is created set the nameservers on the parent to:
+
+- `ns1.as207960.net`
+- `ns2.as207960.net`
+
+You may also want to configure [DNSSEC](/hexdns/dnssec/)
