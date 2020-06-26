@@ -10,5 +10,5 @@ to take advantage of it), so please contact us to setup reverse delegation.
 ## Automatically serve reverse PTR records
 
 If your account controls both the forward and reverse delegation then you can select
-this option to automatically serve requests for `PTR` records that math your forward
+this option to automatically serve requests for `PTR` records that match your forward
 address records without having to duplicate information.
