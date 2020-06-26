@@ -6,7 +6,7 @@ copyright: Copyright &copy; 2020 AS207960 Cyfyngedig
 
 theme:
   name: material
-  logo: https://as207960.net/img/logo.png
+  logo: https://as207960.net/assets/img/logo.svg
   palette:
     primary: black
     accent: black
