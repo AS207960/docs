@@ -2,4 +2,5 @@
 
 Services documented here:
 
+- [Domain registration](/domains)
 - [HexDNS](/hexdns)
