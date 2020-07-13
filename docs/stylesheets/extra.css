@@ -1,0 +1,30 @@
+:root {
+    /* Default color shades */
+    --md-default-fg-color:                #000;
+    --md-default-fg-color--light:        #2A4365;
+    /*--md-default-fg-color--lighter:      ...;*/
+    /*--md-default-fg-color--lightest:     ...;*/
+    --md-default-bg-color:               #f7fafc;
+    /*--md-default-bg-color--light:        ;*/
+    /*--md-default-bg-color--lighter:      #EBF8FF;*/
+    /*--md-default-bg-color--lightest:     ...;*/
+
+    /* Primary color shades */
+    /*--md-primary-fg-color:              #EBF8FF;*/
+    /*--md-primary-fg-color--light:        ...;*/
+    /*--md-primary-fg-color--dark:         ...;*/
+    --md-primary-bg-color:               #f7fafc;
+    /*--md-primary-bg-color--light:        ...;*/
+
+    /* Accent color shades */
+    --md-accent-fg-color:                #ffff;
+    /*--md-accent-fg-color--transparent:   ...;*/
+    --md-accent-bg-color:                #3182CE;
+    /*--md-accent-bg-color--light:         ...;*/
+}
+
+:root > * {
+    /* Code block color shades */
+    /*--md-code-bg-color:                  ...;*/
+    /*--md-code-fg-color:                  ...;*/
+}

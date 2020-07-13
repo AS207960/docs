@@ -1,6 +1,6 @@
 # HexDNS Overview
 
-The HexDNS control panel can be accessed at [dns.as207960.net](https://dns.as207960.net)
+The HexDNS control panel can be accessed at [dns.glau.ca](https://dns.glau.ca)
 
 Get started [here](/hexdns/setup/)
 
@@ -16,6 +16,7 @@ Above 3               | 1.00 GBP
 - `A`
 - `AAAA`
 - `CNAME`
+- [`ANAME`](/hexdns/aname/) (often called `ALIAS`)
 - `MX`
 - `NS`
 - `TXT`

@@ -1,22 +1,23 @@
-site_name: AS207960 Docs
-site_author: AS207960
-site_url: https://docs.as207960.net
+site_name: Glauca Docs
+site_author: Glauca / AS207960
+site_url: https://docs.glau.ca
 
-copyright: Copyright &copy; 2020 AS207960 Cyfyngedig
+copyright: Copyright &copy; 2020 AS207960 Cyfyngedig, trading as Glauca
 
 theme:
   name: material
+  favicon: https://as207960.net/favicon.svg
   logo: https://as207960.net/assets/img/logo.svg
-  palette:
-    primary: black
-    accent: black
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/as207960
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/as_207960
+      link: https://twitter.com/GlaucaDigital
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:
