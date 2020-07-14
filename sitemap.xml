@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://docs.glau.ca/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/domains/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/domains/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/domains/hosts/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/domains/hosts/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/aname/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/aname/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/dnssec/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/dnssec/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/dyndns/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/dyndns/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/reverse/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/reverse/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/secondary/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/secondary/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.glau.ca/hexdns/setup/</loc>
-     <lastmod>2020-07-13</lastmod>
+     <loc>https://docs.glauca.digital/hexdns/setup/</loc>
+     <lastmod>2020-07-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
