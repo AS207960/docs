@@ -37,6 +37,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.tasklist
+  - pymdownx.inlinehilite
   - codehilite:
       guess_lang: false
   - toc:

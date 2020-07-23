@@ -168,7 +168,7 @@ Content-Type: application/json
 ### To update a few fields only
 
 ```http
-PUT /api/contact_addresses/<object_id>/ HTTP/1.1
+PATCH /api/contact_addresses/<object_id>/ HTTP/1.1
 Content-Type: application/json
 
 {

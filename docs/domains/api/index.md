@@ -52,19 +52,3 @@ Vary: Accept
     ]
 }
 ```
-
-## Errors
-
-Errors are mostly communicated through HTTP status codes. Here's a quick summary of the ones
-you'll likely see on this API.
-
-* `200 OK` - All is well.
-* `201 Created` - All is well, and something was created.
-* `204 No content` - All is well, and we have nothing else to say.
-* `400 Bad request` - Ew! Invalid data is *not* tasty!
-* `402 Payment Required` - We failed to charge your account, we need more money!
-* `403 Forbidden` - You're not allowed to do that, naughty!
-* `404 Not Found` - Zere is nothing ere.
-* `409 Confilct` - Something already exists here, go someplace else!
-* `429 Too Many Requests` - Slow down! We can't take it!
-* `500 Internal Server Error` - We fucked up.

@@ -77,3 +77,20 @@ Content-Type: application/json; charset=utf-8
   "some": "data"
 }
 ```
+
+
+### Errors
+
+Errors are mostly communicated through HTTP status codes. Here's a quick summary of the ones
+you'll likely see.
+
+* `#!http 200 OK` - All is well.
+* `#!http 201 Created` - All is well, and something was created.
+* `#!http 204 No content` - All is well, and we have nothing else to say.
+* `#!http 400 Bad request` - Ew! Invalid data is *not* tasty!
+* `#!http 402 Payment Required` - We failed to charge your account, we need more money!
+* `#!http 403 Forbidden` - You're not allowed to do that, naughty!
+* `#!http 404 Not Found` - Zere is nothing ere.
+* `#!http 409 Confilct` - Something already exists here, go someplace else!
+* `#!http 429 Too Many Requests` - Slow down! We can't take it!
+* `#!http 500 Internal Server Error` - We fucked up.
