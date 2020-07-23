@@ -1,6 +1,6 @@
 # HexDNS Overview
 
-The HexDNS control panel can be accessed at [dns.glau.ca](https://dns.glau.ca)
+The HexDNS control panel can be accessed at [dns.glauca.digital](https://dns.glauca.digital)
 
 Get started [here](/hexdns/setup/)
 

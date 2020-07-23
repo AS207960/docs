@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/contacts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/domain_registration_order.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/domain_renew_order.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/domain_restore_order.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/domain_transfer_order.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/name_servers.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/domains/api/contact_addresses.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/api/contact_addresses.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/domains/api/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/api/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/domains/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hexdns/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +100,7 @@
       <workItem from="1594639586814" duration="19000" />
       <workItem from="1595347672059" duration="305000" />
       <workItem from="1595358594029" duration="13878000" />
-      <workItem from="1595508760216" duration="8352000" />
+      <workItem from="1595508760216" duration="18051000" />
     </task>
     <servers />
   </component>

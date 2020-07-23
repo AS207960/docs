@@ -86,12 +86,12 @@ The postal code of the address. Required for addresses in the UK and Crown terri
 
 ### `country_code`
 
-The ISO 3166-1 alpha-2 code of the country of the address.
+The [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country of the address.
 
 ### `birthday`
 > Nullable
 
-The person's birthday as ISO 8601 date. Sometimes required for `.fi` registrations
+The person's birthday as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date. Sometimes required for `.fi` registrations
 
 ### `identity_number`
 > Nullable
@@ -112,7 +112,7 @@ Boolean on weather to disclose the objects address in WHOIS.
 Required scopes:
 
 - `domains:contact_address.read`
-- OR `domains.contact_address` 
+- OR `domains:contact_address` 
 
 ```http
 GET /api/contact_addresses/ HTTP/1.1
@@ -123,7 +123,7 @@ GET /api/contact_addresses/ HTTP/1.1
 Required scopes:
 
 - `domains:contact_address.read`
-- OR `domains.contact_address` 
+- OR `domains:contact_address` 
 
 ```http
 GET /api/contact_addresses/<object_id>/ HTTP/1.1
@@ -133,7 +133,7 @@ GET /api/contact_addresses/<object_id>/ HTTP/1.1
 
 Required scopes:
 
-- `domains.contact_address` 
+- `domains:contact_address` 
 
 ```http
 POST /api/contact_addresses/ HTTP/1.1
@@ -150,7 +150,7 @@ Content-Type: application/json
 
 Required scopes:
 
-- `domains.contact_address` 
+- `domains:contact_address` 
 
 ### For a complete replacement
 
@@ -180,7 +180,7 @@ Content-Type: application/json
 
 Required scopes:
 
-- `domains.contact_address` 
+- `domains:contact_address` 
 
 ```http
 DELETE /api/contact_addresses/<object_id>/ HTTP/1.1

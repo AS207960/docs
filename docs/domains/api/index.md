@@ -24,6 +24,8 @@ Scope name | Purpose
 `domains:contact.read` | Read only access to contacts
 `domains:contact_address` | Read and write access to contact addresses 
 `domains:contact_address.read` | Read only access to contact addresses
+`domains:name_server` | Read and write access to name servers
+`domains:name_server.read` | Read only access to name servers
 
 !!! tip
     `domains:domain.create`, `domains:domain.renew`, and `domains:domain.restore` are

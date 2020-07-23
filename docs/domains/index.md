@@ -1,6 +1,6 @@
 # Domains overview
 
-The domain control panel can be accessed at [domains.glau.ca](https://domains.glauca.digital)
+The domain control panel can be accessed at [domains.glauca.digital](https://domains.glauca.digital)
 
 ## Pricing
 Base pricing information is available [here](https://domains.glauca.digital/prices/), 
