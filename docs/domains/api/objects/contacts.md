@@ -45,7 +45,7 @@ format, treat it as an opaque identifier.
 An arbitrary description to help users identify the object. Not sent to the registry.
 
 ### `local_address`
-> Reference to a [contact address](/domains/api/contact_addresses/)
+> Reference to a [contact address](/domains/api/objects/contact_addresses/)
 
 The localised address of this contact
 
@@ -62,7 +62,7 @@ The internationalised address of this contact
 ### `int_address_url`
 > Read only, nullable
 >
-> Reference to a [contact address](/domains/api/contact_addresses/)
+> Reference to a [contact address](/domains/api/objects/contact_addresses/)
 
 The canonical URL of the internationalised address of this contact
 

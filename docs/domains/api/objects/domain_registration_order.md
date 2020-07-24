@@ -34,55 +34,9 @@ A domain registration order manages the process of registering a new domain.
     
 ## Object field description
 
-### `url`
-> Read only
+### `url`, `id`, `state`, `last_error`, `price`, `off_session`
 
-The canonical URL of this resource in the API  
-
-### `id`
-> Read only
-
-The ID of this object. It is currently a UUID but do not make assumptions about its
-format, treat it as an opaque identifier.
-
-### `state`
-
-A the current order state. Valid values are;
-
-* `pending`
-* `started`
-* `processing`
-* `needs_payment`
-* `pending_approval`
-* `completed`
-* `failed`
-
-The valid state transitions are as follows;
-
-* `pending` is an entry state
-* `started` is an entry state
-* from `pending`
-    * to `started`
-    * to `failed`
-* from `started`
-    * to `processing`
-    * to `needs_payment`
-    * to `failed`
-* from `needs_payment`
-    * to `processing`
-    * to `failed`
-* from `processing` 
-    * to `pending_approval`
-    * to `completed`
-    * to `failed`
-* from `pending_approval`
-    * to `completed`
-    * to `failed`
-* `completed` is a terminal state
-* `failed` is a terminal state
-
-Can only be updated by an API call in the `pending` state.
-Will automatically be set to `started` for orders created with the API.
+See [here](/domains/api/objects/order/)
 
 ### `domain`
 > Write once
@@ -97,7 +51,7 @@ The ID that the domain objects will have if successfully registered.
 ### `registrant`
 > Write once
 >
-> Reference to a [contact](/domains/api/contact/)
+> Reference to a [contact](/domains/api/objects/contact/)
 
 The contact to be used as the registrant of the domain.
 
@@ -109,7 +63,7 @@ The canonical URL of registrant contact.
 ### `admin_contact`
 > Write once, nullable
 >
-> Reference to a [contact](/domains/api/contact/)
+> Reference to a [contact](/domains/api/objects/contact/)
 
 The contact to be used as the admin contact of the domain.
 
@@ -121,7 +75,7 @@ The canonical URL of admin contact.
 ### `billing_contact`
 > Write once, nullable
 >
-> Reference to a [contact](/domains/api/contact/)
+> Reference to a [contact](/domains/api/objects/contact/)
 
 The contact to be used as the billing contact of the domain.
 
@@ -133,7 +87,7 @@ The canonical URL of billing contact.
 ### `tech_contact`
 > Write once, nullable
 >
-> Reference to a [contact](/domains/api/contact/)
+> Reference to a [contact](/domains/api/objects/contact/)
 
 The contact to be used as the technical contact of the domain.
 
@@ -145,7 +99,7 @@ The canonical URL of technical contact.
 ### `domain_obj`
 > Read only, nullable
 >
-> Reference to a [domain](/domains/api/domain/)
+> Reference to a [domain](/domains/api/objects/domain/)
 
 The domain object created upon successful registration
 
@@ -153,17 +107,6 @@ The domain object created upon successful registration
 > Read only
 
 The canonical URL of domain object.
-
-### `redirect_uri`
-> Read only, nullable
-
-The page to redirect a user to in case interactivity is required.
-
-### `last_error`
-> Read only, nullable
-
-The last error encountered whilst registering the domain. If in the `failed` state, 
-this is the reason for failure.
 
 ### `period`
 > Write once
@@ -180,19 +123,6 @@ The unit of time for this period. Valid values are;
 #### `period.value`
 
 The value of the unit for this period.
-
-### `price`
-> Read only
-
-The cost associated with this order.
-
-### `off_session`
-> Write once
-
-If true then a user isn't present to handle interactive tasks, and `redirect_uri` will
-never be set, if false the opposite is true.
-
-Defaults to `true`.
   
 ## List registration orders
 
