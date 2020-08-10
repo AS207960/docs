@@ -13,16 +13,14 @@ This will give you all the required endpoints to perform OAuth against an accoun
 
 ### Client registration
 
-At the current time please contact us to register your OAuth client. We're working on a
-management console for clients, but until this is working all client management must
-be done manually.
+To create and manage your OAuth clients please use the console [here](http://oauth.as207960.net/).
 
 ### Scope whitelisting
 
-Most actions are protected by requesting scopes at the point authorization.
+Most actions are protected by requesting scopes at the point of authorization.
 The user will be asked to consent to your application having access to the scopes
-you've requested. When registering your client you'll need to tell us what scopes you want
-access to and to provide a reason for each scope.
+you've requested. When registering your client you'll need email us to tell us what 
+scopes you want access to and to provide a reason for each scope.
 
 ### Service account
 
