@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/domains/cds.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/.pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/domains/api/register.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domains/cds.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/cds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domains/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +94,8 @@
       <workItem from="1595358594029" duration="13878000" />
       <workItem from="1595508760216" duration="25719000" />
       <workItem from="1595682423643" duration="409000" />
-      <workItem from="1597064021931" duration="2034000" />
+      <workItem from="1597064021931" duration="2744000" />
+      <workItem from="1597927179401" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -109,5 +114,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597927376081">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1597927376081" />
   </component>
 </project>

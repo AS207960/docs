@@ -1,4 +1,4 @@
-# Domains overview
+# Domain registration overview
 
 The domain control panel can be accessed at [domains.glauca.digital](https://domains.glauca.digital)
 

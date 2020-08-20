@@ -52,8 +52,8 @@ This are as follows:
 - If the zone is already signed with DNSSEC the CDS record set must be singed by the current
 published DS/DNSKEY record set.
 - CDS/CDNSKEY must use a supported algorithm and digest type;
-  - algorithms: 5, 7, 8, 10, 13, 14, 15, 16, 0
-  - digest types: 1, 2, 4, 0
+    * algorithms: 5, 7, 8, 10, 13, 14, 15, 16, 0
+    * digest types: 1, 2, 4, 0
 - The zone must validate with the new CDS set.
 
 ## Post acceptance

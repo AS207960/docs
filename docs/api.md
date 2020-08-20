@@ -15,7 +15,7 @@ This will give you all the required endpoints to perform OAuth against an accoun
 
 To create and manage your OAuth clients please use the console [here](http://oauth.as207960.net/).
 
-### Scope whitelisting
+### Scopes
 
 Most actions are protected by requesting scopes at the point of authorization.
 The user will be asked to consent to your application having access to the scopes
