@@ -10,11 +10,25 @@ For the purposes of `dyndns2` the record ID (a UUID) is your username and the pa
 is well the password. 
 
 If you're not using a `dyndns2` compatible client you can make a GET/POST request to
-`http://{id}:{password}@dns.as207960.net/nic/update?hostname={fqdn}[&myip={v4/v6 addr}]`
+`http://{id}:{password}@dns.glauca.digital/nic/update?hostname={fqdn}[&myip={v4/v6 addr}]`
 to update the record (you'll need to make two requests to update the IPv4 and IPv6 
 address, the 1st with the v4 address and the 2nd with the v6 address)
 
 ## Check IP service
 
-Making a GET request to `https://dns.as207960.net/checkip` will return the IP that the
+Making a GET request to `https://dns.glauca.digital/checkip` will return the IP that the
 request came from as the sole contents of the body.
+
+## ddclient example config
+
+When using the ever popular ddclient a configuration similar to the following should work,
+where values in angle brackets (`<>`) denote where you have to update.
+
+```text
+use=web, web=dns.glauca.digitial/checkip
+protocol=dyndns2
+server=dns.glauca.digital
+login=<your id>
+password=<your password>
+<your-fqdn>
+```
