@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/hexdns/rfc2136/.pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/hexdns/rfc2136/dns01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/hexdns/rfc2136/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hexdns/dyndns.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/dyndns.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,7 @@
       <workItem from="1597064021931" duration="2744000" />
       <workItem from="1597927179401" duration="2860000" />
       <workItem from="1598365729518" duration="1152000" />
+      <workItem from="1599850108932" duration="1363000" />
     </task>
     <servers />
   </component>
