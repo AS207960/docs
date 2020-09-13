@@ -3,6 +3,7 @@
 * 1.3.6.1.4.1.56292 - AS207960 Root
     * 1 - PKI
         * 1 - X.509 Extensions
+            * 1 - YubiKey ID
     * 2 - People
         * 1 - [Q](https://magicalcodewit.ch)
         * 2 - [Alfie](https://lordbonzi.pro)
