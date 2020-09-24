@@ -10,7 +10,7 @@ The certbot-dns-rfc2136 plugin can be used for DNS01 verification with HexDNS.
 The config file for this plugin should be formatted as follows;
 
 ```ini
-dns_rfc2136_server = ns1.as207960.net
+dns_rfc2136_server = 45.129.95.255
 dns_rfc2136_port = 53
 dns_rfc2136_name = <your key record name> (such as hexdns_zoneupdatesecret_bla.zone.example.)
 dns_rfc2136_secret = <your secret> (in base64 form)
