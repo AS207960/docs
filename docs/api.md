@@ -34,6 +34,19 @@ access a user's account.
 The tokens issued to clients are very short lived (on the order of minutes), which means
 your application will have to support refresh tokens to properly interact with our APIs.
 
+## Personal Access Tokens
+
+If you only want to access your own account and don't want to use OAuth you can use use a personal
+access token to authenticate as your user and your user only. You can mint PATs in the OAuth console.
+
+When making requests with PATs you should pass them as follows;
+
+```http
+GET /api/resource/1 HTTP/1.1
+Host: example.glauca.digital
+Authorization: X-AS207960-PAT <your token>
+```
+
 ## Making API requests
 
 ### API authorization
