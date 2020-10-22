@@ -8,6 +8,8 @@ however a registry may, at its own discretion, define a domain as premium and in
 the charge for us to register it, and therefore the price you will pay. We'll make you
 aware of any such price when you attempt to register such a domain.
 
+For details on what each price means, se [here](/domains/pricing).
+
 ## Restore domain?
 
 Restoring a domain is the process of reclaiming a domain after it has expired without renewal,
