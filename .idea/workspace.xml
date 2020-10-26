@@ -33,6 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="3c483b55-cadf-4503-95d0-e904ae1e0791" />
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="as207960" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="GbJPsFEk" />
   </component>
@@ -40,7 +45,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -67,6 +71,7 @@
       <recent name="$PROJECT_DIR$/docs/hexdns" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,29 +97,33 @@
       <workItem from="1597927179401" duration="2860000" />
       <workItem from="1598365729518" duration="1152000" />
       <workItem from="1599850108932" duration="2032000" />
+      <workItem from="1603200581756" duration="5968000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597927376081">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1597927376081" />
+    <state x="794" y="390" width="322" height="358" key="FileChooserDialogImpl" timestamp="1603573671377">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="794" y="390" width="322" height="358" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1603573671377" />
   </component>
 </project>
