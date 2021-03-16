@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/domains/email-privacy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/hexdns/cds.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hexdns/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +69,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/domains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/hexdns" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,10 +85,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/hexdns" />
       <recent name="$PROJECT_DIR$/docs/domains" />
       <recent name="$PROJECT_DIR$/docs/domains/api/objects" />
       <recent name="$PROJECT_DIR$/docs/domains/api" />
-      <recent name="$PROJECT_DIR$/docs/hexdns" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/domains/api/objects" />
@@ -120,6 +122,7 @@
       <workItem from="1599850108932" duration="2032000" />
       <workItem from="1603200581756" duration="5968000" />
       <workItem from="1612135099375" duration="547000" />
+      <workItem from="1615905918399" duration="1908000" />
     </task>
     <servers />
   </component>
