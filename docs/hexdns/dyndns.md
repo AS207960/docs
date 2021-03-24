@@ -25,7 +25,7 @@ When using the ever popular ddclient a configuration similar to the following sh
 where values in angle brackets (`<>`) denote where you have to update.
 
 ```text
-use=web, web=dns.glauca.digitial/checkip
+use=web, web=dns.glauca.digital/checkip
 protocol=dyndns2
 server=dns.glauca.digital
 login=<your id>
