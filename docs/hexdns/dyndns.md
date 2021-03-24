@@ -10,7 +10,7 @@ For the purposes of `dyndns2` the record ID (a UUID) is your username and the pa
 is well the password. 
 
 If you're not using a `dyndns2` compatible client you can make a GET/POST request to
-`http://{id}:{password}@dns.glauca.digital/nic/update?hostname={fqdn}[&myip={v4/v6 addr}]`
+`https://{id}:{password}@dns.glauca.digital/nic/update?hostname={fqdn}[&myip={v4/v6 addr}]`
 to update the record (you'll need to make two requests to update the IPv4 and IPv6 
 address, the 1st with the v4 address and the 2nd with the v6 address)
 
@@ -25,9 +25,9 @@ When using the ever popular ddclient a configuration similar to the following sh
 where values in angle brackets (`<>`) denote where you have to update.
 
 ```text
-use=web, web=https://dns.glauca.digitial/checkip/
+use=web, web=dns.glauca.digitial/checkip
 protocol=dyndns2
-server=https://dns.glauca.digital
+server=dns.glauca.digital
 login=<your id>
 password=<your password>
 <your-fqdn>
