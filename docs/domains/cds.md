@@ -34,7 +34,7 @@ Once this has been picked up the new DS in the parent zone will be:
 website.example. 3600 IN DS 45224 13 2 8A7BD58EF0CFA7FFD3813B28A288C69DE9D38D3B5FE71816E82AE26AF0615165
 ```
 
-A chhild zone can also signal to turn off DNSSEC by publishing a special CDS record with an 
+A child zone can also signal to turn off DNSSEC by publishing a special CDS record with an 
 algorithm of 0, as follows:
 ```
 website.example. 3600 IN CDS 0 0 0 00

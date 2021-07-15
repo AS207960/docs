@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/hexdns/cds.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/lir/getting-started.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hexdns/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.pages" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domains/cds.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/domains/cds.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/hexdns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/lir" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,6 +86,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/lir" />
       <recent name="$PROJECT_DIR$/docs/hexdns" />
       <recent name="$PROJECT_DIR$/docs/domains" />
       <recent name="$PROJECT_DIR$/docs/domains/api/objects" />
@@ -123,6 +125,8 @@
       <workItem from="1603200581756" duration="5968000" />
       <workItem from="1612135099375" duration="547000" />
       <workItem from="1615905918399" duration="1908000" />
+      <workItem from="1618563430966" duration="27000" />
+      <workItem from="1626342919965" duration="3190000" />
     </task>
     <servers />
   </component>
@@ -140,15 +144,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597927376081">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state x="742" y="397" width="425" height="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1597927376081" />
-    <state x="794" y="390" width="322" height="358" key="FileChooserDialogImpl" timestamp="1603573671377">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state x="794" y="390" width="322" height="358" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1603573671377" />
   </component>
 </project>
