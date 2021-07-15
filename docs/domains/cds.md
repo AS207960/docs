@@ -11,7 +11,7 @@ hence Child DS and Child DNSKEY. We will poll the nameservers of all domains eve
 to detect these records and make any changes in the parent as requested by the records.
 
 For the sneaky techy deets we implement this according to 
-[RFC 7344](https://tools.ietf.org/html/rfc7433) and 
+[RFC 7344](https://tools.ietf.org/html/rfc7344) and 
 [RFC 8078](https://tools.ietf.org/html/rfc8078). HexDNS implements CDS and CDNSKEY, and this is
 on by default, so you won't have to do anything to get HexDNS to provision DNSSEC automatically
 with us or any other regstrar/registry.
