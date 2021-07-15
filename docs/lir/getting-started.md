@@ -106,7 +106,7 @@ Whilst we don't offer VMs ourselves, our good friends over at iFog offer VMs
 with IXP access links. These are a great way to get a feel for how an IXP
 works without the large cost of physically connecting to an IXP.
 
-[Order yours here](); from 9CHF a month.
+[Order yours here](https://my.ifog.ch/order/main/packages/ixp-vm/?group_id=19&a=ODg=); from 9CHF a month.
 
 ## Glossary
 

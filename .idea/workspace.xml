@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/lir/.pages" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/lir/getting-started.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.pages" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.pages" afterDir="false" />
@@ -126,7 +127,7 @@
       <workItem from="1612135099375" duration="547000" />
       <workItem from="1615905918399" duration="1908000" />
       <workItem from="1618563430966" duration="27000" />
-      <workItem from="1626342919965" duration="3190000" />
+      <workItem from="1626342919965" duration="3652000" />
     </task>
     <servers />
   </component>
