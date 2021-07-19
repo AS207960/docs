@@ -1,8 +1,11 @@
 # Registry lock
 
-Registry lock is an additional service we offer to ensure absolute security of business critical domain names.
+Registry lock is an additional service we offer to ensure absolute security 
+of business critical domain names.
 
-!!! info Registry lock is currently in a closed beta, so isn't available for most customers.
+!!! info
+    Registry lock is currently in a closed beta, so isn't available for 
+    most customers.
 
 ## Supported authenticators
 
@@ -20,11 +23,13 @@ support. It may be expanded in the future subject to security checks.
 * U2F keys possessing FIDO Alliance certification level 1 or higher  
 
 Keys which cannot attest to their security or are attested by an anonymization
-CA will not be accepted.
+CA will not be accepted. Additionally, keys which cannot perform user
+verification (via PIN, biometrics, etc.) will not be supported.
 
 ## Supported TLDs
 
-Only a few TLDs support registry lock, and of those we're only onboarded for registry lock in the below TLDs.
+Only a few TLDs support registry lock, and of those we're only onboarded for 
+registry lock in the below TLDs.
 
 ### Afilias TLDs
 
