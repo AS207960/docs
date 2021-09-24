@@ -1,1 +1,9 @@
 title: Domain Registration
+nav:
+- index.md
+- pricing.md
+- hosts.md
+- email-privacy.md
+- cds.md
+- denic-ns.md
+- registry-lock.md
