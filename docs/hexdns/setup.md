@@ -10,3 +10,14 @@ Once the zone is created set the nameservers on the parent to:
 - `ns2.as207960.net`
 
 You may also want to configure [DNSSEC](/hexdns/dnssec/)
+
+## White-label nameservers
+
+If you'd like to use branded NS records for HexDNS you will need to setup A/AAAA records
+from your custom nameserver record to:
+
+- `45.129.95.2555`
+- `2a0e:1cc1:1::1:1`
+
+These are the anycast IPv4 and IPv6 addresses of HexDNS. Once you have your custom records
+setup you can add them as white-label nameservers in the HexDNS control panel.
