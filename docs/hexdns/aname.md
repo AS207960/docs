@@ -15,7 +15,7 @@ example.com IN  A       1.2.3.4
 example.com IN  TXT     "test"
 example.org IN  ALIAS   example.com
 example.org IN  TXT     "test2"
-example.net IN  ALIAS   exmaple.com
+example.net IN  ALIAS   example.com
 example.gov IN  CNAME   example.com
 ```
 

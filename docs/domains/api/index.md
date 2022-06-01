@@ -30,7 +30,7 @@ Scope name | Purpose
 !!! tip
     `domains:domain.create`, `domains:domain.renew`, and `domains:domain.restore` are
      not included as part of `domains:domain` as these are chargeable actions and need to
-     be requested seperately.
+     be requested separately.
      
 ## Pagination
 

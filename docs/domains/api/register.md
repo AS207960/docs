@@ -19,7 +19,7 @@ Content-Type: application/json; charset=utf-8
 Accept: application/json
 
 {
-    "description": "Exmaple Address",
+    "description": "Example Address",
     "name": "Barry Benson",
     "organisation": "The Honey Factory",
     "street_1": "5 Buzz Street",
@@ -45,7 +45,7 @@ Vary: Accept
 {
     "url": "https://domains.glauca.digital/api/contact_addresses/908b1a1b-e452-4c87-a711-1ab3e8e61c50/",
     "id": "908b1a1b-e452-4c87-a711-1ab3e8e61c50",
-    "description": "Exmaple Address",
+    "description": "Example Address",
     "name": "Barry Benson",
     "organisation": "The Honey Factory",
     "street_1": "5 Buzz Street",
@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 Accept: application/json
 
 {
-    "description": "Exmaple contact",
+    "description": "Example contact",
     "local_address": "908b1a1b-e452-4c87-a711-1ab3e8e61c50",
     "int_address": null,
     "phone": "+441234567890",
@@ -100,7 +100,7 @@ Vary: Accept
 {
     "url": "https://domains.glauca.digital/api/contacts/2a2b0972-a64d-42e2-a401-b09595306e5d/",
     "id": "2a2b0972-a64d-42e2-a401-b09595306e5d",
-    "description": "Exmaple contact",
+    "description": "Example contact",
     "local_address": "908b1a1b-e452-4c87-a711-1ab3e8e61c50",
     "local_address_url": "https://domains.glauca.digital/api/contact_addresses/908b1a1b-e452-4c87-a711-1ab3e8e61c50/",
     "int_address": null,

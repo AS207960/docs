@@ -51,7 +51,7 @@ Before records are accepted into the parent zone a few criteria must be met.
 This are as follows:
 
 - Every name server must respond on every listed IP address over TCP with identical CDS sets.
-- If the zone is already signed with DNSSEC the CDS record set must be singed by the current
+- If the zone is already signed with DNSSEC the CDS record set must be signed by the current
 published DS/DNSKEY record set.
 - CDS/CDNSKEY must use a supported algorithm and digest type;
     * algorithms: 5, 7, 8, 10, 13, 14, 15, 16, 0
