@@ -36,7 +36,7 @@ Plus EU VAT where applicable.
 `A` and `AAAA` records are both stored as `Address` record types in the control panel,
 and the server will server the IPv4 or IPv6 records as requested by the client.
 
-!!! info "Automatically server PTR records? WTF?"
+!!! info "Automatically serve PTR records? WTF?"
     See [reverse DNS](/hexdns/reverse/)
 
 ## Other features
