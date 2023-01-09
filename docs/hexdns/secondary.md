@@ -9,5 +9,5 @@ You can setup HexDNS to clone a zone from a primary server and server that as a 
 
 Make sure to add our IPs to the ACL on the primary server and through any firewalls:
 
-- `2a0d:1a40:7901::/48`
+- `2001:678:fc8:2::8/125`
 - `45.129.95.0/24`
