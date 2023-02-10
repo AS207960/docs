@@ -2,172 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.glauca.digital/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/api/</loc>
-         <lastmod>2023-02-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.glauca.digital/net/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/oid/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/cds/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/denic-ns/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/email-privacy/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/hosts/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/nominet-promotion-2021/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/pricing/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/registry-lock/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/register/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/contact_addresses/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/contacts/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/domain_registration_order/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/domain_renew_order/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/domain_restore_order/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/domain_transfer_order/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/domains/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/name_servers/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/domains/api/objects/order/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/aname/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/cds/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/dnssec/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/dyndns/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/reverse/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/secondary/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/setup/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/rfc2136/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/hexdns/rfc2136/dns01/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.glauca.digital/lir/getting-started/</loc>
-         <lastmod>2023-02-03</lastmod>
+         <lastmod>2023-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.glauca.digital/net/</loc>
+         <lastmod>2023-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.glauca.digital/net/colo/</loc>
+         <lastmod>2023-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
