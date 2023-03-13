@@ -23,3 +23,38 @@ This DNS server forwards DNS queries to:
 - [Google DNS](https://developers.google.com/speed/public-dns) - Unfiltered
 - [quad9 DNS](https://www.quad9.net) - Unfiltered
 - [Control D DNS](https://controld.com) - Unfiltered
+
+## NetBoot
+
+We operate a NetBoot server on the management network. This is available to all users of colo space.
+
+Setup your server to PXE boot from the management network to use this to install various OSes and boot live systems.
+
+If you run your own DHCP you can setup your DHCP server to provide `45.129.95.245` port `69` 
+as the TFTP server address.
+
+### ISC DHCP
+
+If using the the ISC DHCP server you can add the following to your configuration,
+this will also add support for UEFI PXE boot:
+
+```
+option arch code 93 = unsigned integer 16;
+option tftp-server-name "45.129.95.254";
+next-server 45.129.95.245;
+if exists user-class and ( option user-class = "iPXE" ) {
+  filename "http://netboot.as207960.ltd.uk/boot/menu.ipxe";
+} elsif option arch = encode-int ( 16, 16 ) {
+  filename "http://netboot.as207960.ltd.uk/boot/ipxe/netboot.xyz.efi";
+  option vendor-class-identifier "HTTPClient";
+} elsif option arch = 00:07 {
+  filename "netboot.xyz.efi";
+} else {
+  filename "netboot.xyz.kpxe";
+}
+```
+
+### Missing images
+
+If you encounter an error booting your image of choice we may not have it cached on our server yet.
+Please contact us and we will arrange for it to be added to our cache.
