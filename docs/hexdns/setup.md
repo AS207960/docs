@@ -1,6 +1,6 @@
 # Adding your zone to HexDNS
 
-To add your zone to HexDNS login to the control panel [here](https://dns.as207960.net),
+To add your zone to HexDNS login to the control panel [here](https://dns.glauca.digital),
 and follow the zone creation wizard. You won't be able to create a zone if someone else
 already controls a more generic zone.
 

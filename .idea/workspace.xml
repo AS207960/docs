@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/net.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hexdns/secondary.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/secondary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hexdns/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/setup.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -131,6 +133,7 @@
       <workItem from="1626705639447" duration="3657000" />
       <workItem from="1643382082267" duration="814000" />
       <workItem from="1675447446072" duration="1372000" />
+      <workItem from="1678721977030" duration="272000" />
     </task>
     <servers />
   </component>
