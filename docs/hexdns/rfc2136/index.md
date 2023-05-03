@@ -15,5 +15,5 @@ The supported HMAC algorithms are:
 
 
 !!! danger
-    We'll honour whatever HMAC is used te sign the incoming request for the response, however SHA1 is
+    We'll honour whatever HMAC is used to sign the incoming request for the response, however SHA1 is
     **strongly** advised against, and MD5 doubly so.
