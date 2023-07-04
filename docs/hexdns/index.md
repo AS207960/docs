@@ -30,6 +30,9 @@ Plus EU VAT where applicable.
 - `LOC`
 - `HINFO`
 - `RP`
+- `HTTPS`
+- `DHCID`
+- HTTP Redirect pseudo records
 
 ## Address records
 
