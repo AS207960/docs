@@ -7,13 +7,13 @@ All update requests to HexDNS must be signed with TSIG. TSIG secrets can be mana
 
 The supported HMAC algorithms are:
 
-* `hmac-md5.sig-alg.reg.int.`
-* `hmac-sha1.`
-* `hmac-sha256.`
-* `hmac-sha384.`
-* `hmac-sha512.`
+* HMAC MD5
+* HMAC SHA-1
+* HMAC SHA-256
+* HMAC SHA-384
+* HMAC SHA-512
 
 
 !!! danger
-    We'll honour whatever HMAC is used te sign the incoming request for the response, however SHA1 is
+    We'll honour whatever HMAC is used te sign the incoming request for the response, however SHA-1 is
     **strongly** advised against, and MD5 doubly so.

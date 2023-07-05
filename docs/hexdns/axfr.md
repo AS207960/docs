@@ -27,3 +27,12 @@ We support the following TSIG key algorithms:
 ## Notify
 
 At the moment HexDNS won't sign NOTIFY messages with a TSIG key.
+
+NOTIFY messages will come from one of the following addresses:
+
+- `2001:678:fc8:2::10/125`
+- `45.129.95.0/24`
+
+!!! tip
+    If your servers support IPv6 we won't make any attempt to connect over IPv4.
+    You'll therefore only need to allow the small `/125` IPv6 range through your ACL.
