@@ -24,8 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hexdns/axfr.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/axfr.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hexdns/rfc2136/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/rfc2136/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hexdns/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hexdns/setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +80,18 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/q/Documents/as207960-docs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -136,7 +143,10 @@
       <workItem from="1678721977030" duration="1422000" />
       <workItem from="1688406310918" duration="1053000" />
       <workItem from="1688473687448" duration="1900000" />
-      <workItem from="1688574809932" duration="153000" />
+      <workItem from="1688574809932" duration="1368000" />
+      <workItem from="1688636244291" duration="598000" />
+      <workItem from="1688717078294" duration="590000" />
+      <workItem from="1691516079098" duration="149000" />
     </task>
     <servers />
   </component>
