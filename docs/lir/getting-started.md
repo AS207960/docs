@@ -100,13 +100,10 @@ and your `publisher_request` should look like the below;
 </publisher_request>
 ```
 
-## IXP VMs
+## BGP and IXP VPSes
 
-Whilst we don't offer VMs ourselves, our good friends over at iFog offer VMs
-with IXP access links. These are a great way to get a feel for how an IXP
-works without the large cost of physically connecting to an IXP.
-
-[Order yours here](https://my.ifog.ch/order/main/packages/ixp-vm/?group_id=19&a=ODg=); from 9CHF a month.
+We offer VPSes with free BGP sessions for you to utilise your ASN.
+More information and pricing is available [here](https://glauca.digital/colo-vps/).
 
 ## Glossary
 
