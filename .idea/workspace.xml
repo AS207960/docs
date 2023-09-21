@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ef2190b-70e6-4e86-b1bb-9fc0922a189a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/lir/getting-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lir/getting-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/net/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/net/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1c2Hut2mzM2kxgAg8IRw4BaINSp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -146,7 +149,9 @@
       <workItem from="1688636244291" duration="598000" />
       <workItem from="1688717078294" duration="590000" />
       <workItem from="1691516079098" duration="746000" />
-      <workItem from="1693401771980" duration="73000" />
+      <workItem from="1693401771980" duration="672000" />
+      <workItem from="1695287658239" duration="1469000" />
+      <workItem from="1695290640720" duration="64000" />
     </task>
     <servers />
   </component>
