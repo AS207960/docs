@@ -14,7 +14,7 @@ RTR protocol (TLS): `rtr.routinator.as207960.net:3324` / `[2a0e:1cc1:1::1:15]:33
 Web UI: [routinator.as207970.net](https://routinator.as207960.net)
 
 ## BGP communities
-`net` here means our ASN (i.e. 207960 or 202359)
+`net` here means the ASN you peer with (i.e. 207960 or 202359)
 
 - `net:1:0` - received from transit
 - `net:1:1` - received from peering
