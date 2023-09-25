@@ -1,7 +1,7 @@
 # Name servers
 
 Name servers (or glue records) are used to provide IP addresses for name servers where 
-they would otherwise be unavailable. For more information see [here](/domains/hosts).
+they would otherwise be unavailable. For more information see [here](/domains/hosts/).
     
 ## Example object
 
