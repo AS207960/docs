@@ -58,6 +58,28 @@ published DS/DNSKEY record set.
     * digest types: 1, 2, 4, 0
 - The zone must validate with the new CDS set.
 
+## Authenticated bootstrapping
+
+We will check for the presence of `_dsboot` records for all nameservers on a domain, in accordance
+with [draft-ietf-dnsop-dnssec-bootstrapping](https://datatracker.ietf.org/doc/draft-ietf-dnsop-dnssec-bootstrapping/).
+If at least one nameserver has a `_dsboot` record all other nameservers are also required to have 
+`_dsboot` records or we won't bootstrap the zone. Bootstrap records will be ignored
+if the zone is already DNSSEC signed, and updates to the DS records will be trusted based
+on the zone's DNSSEC signatures.
+
+For example if you have a zone `example.com` with the following records:
+```
+example.com. 3600 IN NS ns1.example.net.
+example.com. 3600 IN NS ns2.example.net.
+example.com. 3600 IN CDS 45224 13 2 8A7BD58EF0CFA7FFD3813B28A288C69DE9D38D3B5FE71816E82AE26AF0615165
+```
+
+Then the following additional records are required for authenticated bootstrapping:
+```
+_dsboot.example.com._singal.ns1.example.net 3600 IN CDS 45224 13 2 8A7BD58EF0CFA7FFD3813B28A288C69DE9D38D3B5FE71816E82AE26AF0615165
+_dsboot.example.com._singal.ns2.example.net 3600 IN CDS 45224 13 2 8A7BD58EF0CFA7FFD3813B28A288C69DE9D38D3B5FE71816E82AE26AF0615165
+```
+
 ## Post acceptance
 
 Once we've received the request, validated, and successfully enacted upon it, we'll send you
