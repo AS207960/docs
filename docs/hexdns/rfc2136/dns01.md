@@ -17,6 +17,6 @@ dns_rfc2136_secret = <your secret> (in base64 form)
 dns_rfc2136_algorithm = HMAC-SHA512
 ```
 
-The `--dns-rfc2136-propagation-seconds` command line flag should be set to ~60 seconds.
+The `--dns-rfc2136-propagation-seconds` command line flag should be set to ~120 seconds.
 
 Further documentation on this plugin can be found [here](https://certbot-dns-rfc2136.readthedocs.io/en/stable/).
