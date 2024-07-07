@@ -54,31 +54,30 @@ source: RIPE
 
 ## RPKI
 
-We offer two options for RPKI; we can either setup RPKI for you, running on
-our RPKI infrastructure. You'll need to email us for every update to ROAs.
-We can also create a delegation from our server to your RPKI CA. You'll
-be able to use our server as a publication repository, so you won't have 
-to run that yourself if you don't have one already.
+We offer two options for RPKI; we can either setup RPKI for you running on
+our RPKI infrastructure, or can also create a delegation from our server to
+your RPKI CA. You'll be able to use our server as a publication repository, 
+so you won't have to run that yourself if you don't have one already.
 
-**We strongly recommend that you configure RPKI** to ensure the security
-of your announcements.
+!!! warning
+    If you're using a prefix from us you're required to setup RPKI for it.
+    We public a ROA covering our entire block, so you'll need to create
+    a ROA for your prefix to ensure it's not marked as invalid.
 
 ### Hosted RPKI
 
-Email us at [hello@glauca.digital](mailto:hello@glauca.digital) with the
-details of ROAs to be created/updated/deleted. Please include the origin
-ASN, prefix, and max announcement length in your request. You'll also need
-to authenticate your ticket to your SSO account to ensure the security of
-RPKI.
+You can manage your RPKI resources at [rpki.glauca.digital](https://rpki.glauca.digital).
+More details on setting up ASPAs are available [here](/lir/managing-aspas/).
 
 ### Delegated RPKI
 
 Email us at [hello@glauca.digital](mailto:hello@glauca.digital) with your
-RFC8183 `child_request` message. We'll supply an RFC8183 `parent_response`
-for you to input into your RPKI CA. You'll also need to authenticate your
-ticket to your SSO account to ensure the security of RPKI.
+RFC8183 `child_request` message and the ID of your RPKI CA from [rpki.glauca.digital](https://rpki.glauca.digital).
+We'll supply an RFC8183 `parent_response` for you to input into your RPKI CA.
+You'll also need to authenticate your ticket to your SSO account to ensure the
+security of RPKI.
 
-If you'd like to use our publication reposity we'll also need your RFC8183
+If you'd like to use our publication repository we'll also need your RFC8183
 `publisher_request`. We'll supply an RFC8183 `reposity_response`.
 
 Your `child_request` should look something like the below;
@@ -120,3 +119,7 @@ announcements.
 ### ROA
 **Route Origin Authorization** - RPKI objects that state which ASN is
 allowed to announce which prefix.
+
+### ASPA
+**Autonomous System Provider Authorization** - RPKI objects that state which ASN is
+allowed to upstream which ASN.
