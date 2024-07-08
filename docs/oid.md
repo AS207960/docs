@@ -4,6 +4,8 @@
     * 1 - PKI
         * 1 - X.509 Extensions
             * 1 - YubiKey ID
+        * 2 - RPKI Extensions
+            * 1 - `rpkiBpkiTAUpdate` EKU
     * 2 - People
         * 1 - [Q](https://magicalcodewit.ch)
         * 2 - [Alfie](https://lordbonzi.pro)

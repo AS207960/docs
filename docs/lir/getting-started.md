@@ -61,7 +61,7 @@ so you won't have to run that yourself if you don't have one already.
 
 !!! warning
     If you're using a prefix from us you're required to setup RPKI for it.
-    We public a ROA covering our entire block, so you'll need to create
+    We publish an ROA covering our entire block, so you'll need to create
     a ROA for your prefix to ensure it's not marked as invalid.
 
 ### Hosted RPKI
