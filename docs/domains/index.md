@@ -3,12 +3,12 @@
 The domain control panel can be accessed at [domains.glauca.digital](https://domains.glauca.digital)
 
 ## Pricing
-Base pricing information is available [here](https://domains.glauca.digital/prices/), 
+Base pricing information is available on the [domain prices page](https://domains.glauca.digital/prices/),
 however a registry may, at its own discretion, define a domain as premium and increase
 the charge for us to register it, and therefore the price you will pay. We'll make you
 aware of any such price when you attempt to register such a domain.
 
-For details on what each price means, se [here](/domains/pricing).
+For details on what each price means, see [pricing explained](/domains/pricing).
 
 ## Restore domain?
 
